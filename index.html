@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Powercon Electro Systems</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- ================= TOP BAR ================= -->
+  <div class="top-bar">
+    <div class="container d-flex justify-content-between">
+      <span>📞 +91 9422291973</span>
+      <span>
+        ✉ <a href="mailto:powercon192@gmail.com">powercon192@gmail.com</a>
+      </span>
+    </div>
+  </div>
+
+  <!-- ================= NAVBAR ================= -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top custom-navbar">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">
+        <span class="brand-highlight">Powercon</span>Electro Systems
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav align-items-lg-center gap-lg-4">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#products">Products</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          <li class="nav-item">
+            <a class="btn btn-warning ms-lg-3" href="#contact">Get Quote</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ================= HERO ================= -->
+  <section id="home" class="hero-section">
+    <div class="container hero-content reveal">
+      <span class="hero-badge">Leading Solar Energy Solutions Provider</span>
+      <h1>Empowering Tomorrow<br>with <span>Sustainable Energy</span></h1>
+      <p>
+        Transform your energy needs with cutting-edge solar solutions,
+        energy-efficient appliances, and innovative power systems.
+      </p>
+      <div class="hero-buttons">
+        <a href="#products" class="btn btn-warning">Explore Products</a>
+        <a href="#contact" class="btn btn-outline-light">Get Free Consultation</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= STATS (ANIMATED COUNTERS) ================= -->
+  <section class="stats-section">
+    <div class="container">
+      <div class="row text-center">
+
+        <div class="col-md-3 reveal">
+          <h2 class="counter" data-target="1000">0</h2>
+          <p>Projects Delivered</p>
+        </div>
+
+        <div class="col-md-3 reveal">
+          <h2 class="counter" data-target="500">0</h2>
+          <p>Happy Clients</p>
+        </div>
+
+        <div class="col-md-3 reveal">
+          <h2 class="counter" data-target="50">0</h2>
+          <p>MW Installed</p>
+        </div>
+
+        <div class="col-md-3 reveal">
+          <h2 class="counter" data-target="24">0</h2>
+          <p>Support Hours</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= PRODUCTS WITH FILTER ================= -->
+  <section id="products" class="section-light">
+    <div class="container">
+      <span class="section-badge">Our Products</span>
+      <h2 class="section-title">Complete Energy Solutions Portfolio</h2>
+
+      <!-- FILTER TABS -->
+      <div class="product-filters text-center my-4">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="solar">Solar</button>
+        <button class="filter-btn" data-filter="led">LED</button>
+        <button class="filter-btn" data-filter="agriculture">Agriculture</button>
+      </div>
+
+      <div class="row g-4">
+
+        <div class="col-md-4 product-item reveal" data-category="solar">
+          <div class="product-card">
+            <img src="assets/images/solar_power.jpg">
+            <h4>Solar Power Plant</h4>
+            <p>Rooftop & ground-mounted EPC solutions.</p>
+          </div>
+        </div>
+
+        <div class="col-md-4 product-item reveal" data-category="solar">
+          <div class="product-card">
+            <img src="assets/images/solar_street.jpg">
+            <h4>Solar Street Light</h4>
+            <p>Smart city & highway lighting.</p>
+          </div>
+        </div>
+
+        <div class="col-md-4 product-item reveal" data-category="solar">
+          <div class="product-card">
+            <img src="assets/images/solar_ripening_chamber.png">
+            <h4>Solar Ripening Chamber</h4>
+            <p>Energy-efficient ripening chamber.</p>
+          </div>
+        </div>
+
+        <div class="col-md-4 product-item reveal" data-category="solar">
+          <div class="product-card">
+            <img src="assets/images/solar_high_mast.jpg">
+            <h4>Solar High Mast Light</h4>
+            <p>High mast lighting for large areas.</p>
+          </div>
+        </div>
+
+        <div class="col-md-4 product-item reveal" data-category="agriculture">
+          <div class="product-card">
+            <img src="assets/images/solar_pumping.jpg">
+            <h4>Solar Pumping System</h4>
+            <p>Agricultural & water supply solutions.</p>
+          </div>
+        </div>
+
+        <div class="col-md-4 product-item reveal" data-category="led">
+          <div class="product-card">
+            <img src="assets/images/bldc_fan.jpg">
+            <h4>BLDC Fan</h4>
+            <p>Energy-efficient ceiling fans.</p>
+          </div>
+        </div>
+
+        <div class="col-md-4 product-item reveal" data-category="solar">
+          <div class="product-card">
+            <img src="assets/images/vegetable_cart.jpg">
+            <h4>Vegetable Cart</h4>
+            <p>Electric Vegetable Cart.</p>
+          </div>
+        </div>
+
+        <div class="col-md-4 product-item reveal" data-category="solar">
+          <div class="product-card">
+            <img src="assets/images/home_light_system.jpeg">
+            <h4>Home Light System</h4>
+            <p>Home lighting solutions.</p>
+          </div>
+        </div>
+
+        <div class="col-md-4 product-item reveal" data-category="solar">
+          <div class="product-card">
+            <img src="assets/images/insect_catcher.jpg">
+            <h4>Solar Insect Catcher</h4>
+            <p>Environmentally friendly pest control solution.</p>
+          </div>
+        </div>
+
+        <div class="col-md-4 product-item reveal" data-category="led">
+          <div class="product-card">
+            <img src="assets/images/solar_tree.jpg">
+            <h4>Solar Tree</h4>
+            <p>Innovative and space-saving solar power solution.</p>
+          </div>
+        </div>
+
+        <div class="col-md-4 product-item reveal" data-category="solar">
+          <div class="product-card">
+            <img src="assets/images/cold_storage.jpg">
+            <h4>Solar Cold Storage</h4>
+            <p>Solar-powered cold storage solutions for agriculture.</p>
+          </div>
+        </div>
+        <div class="col-md-4 product-item reveal" data-category="led">
+          <div class="product-card">
+            <img src="assets/images/led_.jpg">
+            <h4>LED Lights</h4>
+            <p>Indoor & outdoor LED lighting.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= PROJECTS WITH TAG & ICON ================= -->
+  <section id="projects" class="section-dark">
+    <div class="container">
+      <span class="section-badge">Our Work</span>
+      <h2 class="section-title">Powering India's Sustainable Future</h2>
+
+      <div class="row g-4 mt-4">
+
+        <div class="col-md-4 reveal">
+          <div class="project-card">
+            <img src="assets/images/solar_power.jpg">
+            <div class="project-overlay">
+              <span class="project-tag">⚡ Commercial</span>
+              <h4>500 KW Solar Plant</h4>
+              <p>📍 Pune • 2024</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 reveal">
+          <div class="project-card">
+            <img src="assets/images/solar_tree.jpg">
+            <div class="project-overlay">
+              <span class="project-tag">🌱 Smart City</span>
+              <h4>Solar Tree Installation</h4>
+              <p>📍 Mumbai • 2023</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 reveal">
+          <div class="project-card">
+            <img src="assets/images/solar_high_mast.jpg">
+            <div class="project-overlay">
+              <span class="project-tag">💡 High Mast</span>
+              <h4>High Mast Lighting</h4>
+              <p>📍 Rajasthan • 2023</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= ABOUT ================= -->
+  <section id="about" class="section-light">
+    <div class="container">
+      <span class="section-badge">About Us</span>
+      <h2 class="section-title">Why Powercon Electro Systems</h2>
+
+      <!-- ADD g-4 HERE -->
+      <div class="row g-4 mt-4">
+
+        <div class="col-md-4">
+          <div class="about-card reveal">
+            <h4>Achievements</h4>
+            <ul>
+              <li>32+ Years Experience</li>
+              <li>Government & PSU Projects</li>
+              <li>Pan-India Execution</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="about-card reveal">
+            <h4>Certifications</h4>
+            <ul>
+              <li>ISO 9001 / 14001 / 45001</li>
+              <li>MNRE Approved</li>
+              <li>NABL Tested</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="about-card reveal">
+            <h4>Esteemed Clients</h4>
+            <ul>
+              <li>Indian Railways</li>
+              <li>SECI, IOCL, THDC</li>
+              <li>SBI, CIDCO</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CONTACT ================= -->
+  <section id="contact" class="section-dark">
+    <div class="container">
+      <span class="section-badge">Contact Us</span>
+      <h2 class="section-title">Get in Touch</h2>
+
+      <form class="contact-form mt-4 reveal">
+        <input type="text" placeholder="Name">
+        <input type="email" placeholder="Email">
+        <input type="text" placeholder="Phone">
+        <input type="text" placeholder="Interested Product">
+        <textarea placeholder="Message"></textarea>
+        <button type="submit">Submit Inquiry</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- ================= PDF SECTION ================= -->
+  <section id="brochure" class="section-light">
+    <div class="container text-center">
+      <span class="section-badge">Product Catalogue</span>
+      <h2 class="section-title">Download Our Product Catalogue</h2>
+
+      <p class="section-subtitle mb-4">
+        View or download our detailed product brochure for complete specifications.
+      </p>
+
+      <!-- OPEN PDF MODAL BUTTON -->
+      <button class="btn btn-warning btn-lg" data-bs-toggle="modal" data-bs-target="#pdfModal">
+        📄 View Product Catalogue
+      </button>
+    </div>
+  </section>
+  <!-- ================= MAP ================= -->
+  <section class="map-wrapper" id="map">
+    <div class="container text-center">
+      <span class="section-badge">Visit Our Office</span>
+      <h2 class="section-title">Powercon Electro Systems</h2>
+
+      <p class="map-address">
+        C-116, M.I.D.C. Area, Waluj,<br>
+        Chhatrapati Sambhajinagar – 431136,<br>
+        Maharashtra, India
+      </p>
+    </div>
+
+    <div class="map-container">
+      <iframe src="https://www.google.com/maps?q=19.8679,75.3566&z=17&output=embed" loading="lazy" allowfullscreen
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+  <footer>
+    © 2026 Powercon Electro Systems. All Rights Reserved.
+  </footer>
+
+  <!-- ================= SCRIPTS ================= -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/index.js"></script>
+  <script>
+    /* STICKY NAVBAR */
+    const navbar = document.querySelector('.custom-navbar');
+    window.addEventListener('scroll', () => {
+      navbar.classList.toggle('scrolled', window.scrollY > 80);
+    });
+
+    /* COUNTERS */
+    const counters = document.querySelectorAll('.counter');
+    counters.forEach(counter => {
+      const update = () => {
+        const target = +counter.dataset.target;
+        const current = +counter.innerText;
+        const increment = target / 120;
+        if (current < target) {
+          counter.innerText = Math.ceil(current + increment);
+          setTimeout(update, 20);
+        } else {
+          counter.innerText = target + '+';
+        }
+      };
+      update();
+    });
+
+    /* PRODUCT FILTER */
+    const filterBtns = document.querySelectorAll('.filter-btn');
+    const products = document.querySelectorAll('.product-item');
+
+    filterBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        filterBtns.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        const filter = btn.dataset.filter;
+        products.forEach(p => {
+          p.style.display =
+            filter === 'all' || p.dataset.category === filter ? 'block' : 'none';
+        });
+      });
+    });
+
+    /* SCROLL REVEAL */
+    const reveals = document.querySelectorAll('.reveal');
+    const revealOnScroll = () => {
+      const trigger = window.innerHeight * 0.85;
+      reveals.forEach(el => {
+        if (el.getBoundingClientRect().top < trigger) {
+          el.classList.add('active');
+        }
+      });
+    };
+    window.addEventListener('scroll', revealOnScroll);
+    window.addEventListener('load', revealOnScroll);
+  </script>
+  <!-- ================= PDF MODAL ================= -->
+  <div class="modal fade" id="pdfModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+
+        <!-- MODAL HEADER -->
+        <div class="modal-header">
+          <h5 class="modal-title">Powercon Product Catalogue</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+
+        <!-- MODAL BODY -->
+        <div class="modal-body p-0">
+          <iframe src="assets/pdf/stun-walker.pdf" style="width:100%; height:80vh; border:none;"
+            title="Powercon Catalogue">
+          </iframe>
+        </div>
+
+        <!-- MODAL FOOTER -->
+        <div class="modal-footer">
+          <a href="assets/pdf/stun-walker.pdf" download class="btn btn-warning">
+            ⬇ Download PDF
+          </a>
+          <button class="btn btn-secondary" data-bs-dismiss="modal">
+            Close
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
